@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web Pertama Semester 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/partner.png" alt="" class="logo-img" />
+        <h1 class="logo-title">Safwan X</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#hobby">HOBBY</a></li>
+          <li><a href="mailto:canisurvivetoo@gmail.com">CONTACT</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redirInstagram()">FOLLOW SAYA</button>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <p class="title">Hello, Safwan here!</p>
+        <p class="description">A Rookie in Programming</p>
+        <img src="assets/paddy-worker.jpg" alt="" class="img-foto" />
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="tentang">
+        <p class="title">Saya adalah programmer baru 😊</p>
+        <p class="description">Ngoding aja dulu, ntar juga faham kok</p>
+        <div class="mt-10">
+          <button class="btn-cta" onclick="redirWhatsapp()">
+            Mari kerjasama
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card" id="hobby">
+          <div class="card-item">
+            <img src="assets/24-hours.png" alt="" class="icon" />
+            <p class="card-title">Saya suka belajar ngoding 💻</p>
+            <p class="card-description">Ngoding sangat menyerukan</p>
+          </div>
+          <div class="card-item">
+            <img src="assets/hot-deal.png" alt="" class="icon" />
+            <p class="card-title">Saya programmer low-budget 💸</p>
+            <p class="card-description">
+              Biaya jasa yang saya berikan pasti murah dan terjamin
+            </p>
+          </div>
+          <div class="card-item">
+            <img src="assets/rating.png" alt="" class="icon" />
+            <p class="card-title">541 Review</p>
+            <p class="card-description">
+              Mereka merasa puas bekerjasama dengan saya
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="title">&copy; Website Safwan 2023</p>
+    </footer>
+    <script>
+      function redirInstagram() {
+        window.location.href = "https://www.instagram.com/";
+      }
+
+      function redirWhatsapp() {
+        window.location.href = "https://wa.me/+625436861";
+      }
+    </script>
+  </body>
+</html>
